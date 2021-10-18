@@ -11,9 +11,8 @@ function Navbar(){
          <div className= "leftSide">
           <div className="links" id={showLinks ? "hidden" : ""}>
             <a href="/home">Home</a>
-            <a href="/feedback">Login</a>
-            <a href="/contact">Pokémons Favoritos</a>
-            <a href="/login"></a>
+            <a href="/login">Login</a>
+            <a href="/PokemonsFavoritos">Pokémons Favoritos</a>
             </div>
              <button onClick={()=> setShowLinks(!showLinks)}> 
              {" "}
