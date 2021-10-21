@@ -3,7 +3,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className="footer">
-            <h4>Desenvolvido por Victor Lima</h4>
+            <h4>Desenvolvido por Victor Lima e Felipe Costa</h4>
         </div>
     );
 }
